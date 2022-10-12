@@ -1,0 +1,26 @@
+/* INICIO ANIMACION TEXTO H2*/
+
+.display-4 {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: $sizeTitulo;
+    padding: 5px;
+    margin: 0 auto;
+    animation: typing 8s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+}
+
+/* FIN ANIMACION TEXTO H2*/

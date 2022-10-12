@@ -1,0 +1,87 @@
+
+/*Variables*/
+
+$sizeLogo: 80px; /*altura Logo*/
+$sizeMenu: 17px; /*texto menu*/
+$sizeCarro: 25px; /*tamaño carro-whatsApp*/
+$sizeTitulo: 35px; /*texto Titulo Sección*/
+$withCard: 18rem; /*anchura card*/
+$titleCard: 20px; /*texto titulo card*/
+$textoCard: 16px; /*texto card*/
+
+$btnColor: (  /*declaracion de mapa - color boton card*/
+    primario: rgb(255, 204, 3),
+    secundario: rgb(236, 103, 27),  
+);
+
+$btnCarro: 16px; /*tamaño carro boton card*/
+$btnTexto: 16px; /*texto boton card y modal*/
+$clienteImagen: 12rem; /* maximo ancho imagen cliente*/
+$clienteNombre: 18px; /*nombre cliente*/
+$clienteOpinion: 16px; /*comentario cliente*/
+$textoFooter: 16px; /*tamaño texto footer*/
+$sizeRedes: 25px; /*tamaño iconos redes*/
+
+@mixin background  { 
+    background-color: rgb(255, 255, 255);    
+}
+
+.carousel {
+    margin-top: 90px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;       
+    margin-top: 10px;
+    margin-bottom: 20px;    
+}
+
+.col-med-4 {
+    padding: 10px;
+}
+
+.modal-footer .btn {
+    font-size: $btnTexto;
+    border: 1px solid rgb(39, 39, 39);
+    box-shadow: 3px 3px 3px 0px #7b7e81;
+}
+
+form .btn {
+    font-size: $btnTexto;
+    border: 1px solid rgb(39, 39, 39);
+    box-shadow: 3px 3px 3px 0px #7b7e81;
+}
+
+.container form {
+    margin-left: 20px;
+}
+
+.form-floating {
+    text-align: left;
+}
+
+.jumbotron {
+    @extend .container;
+    @include background();
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    iframe {
+        width: auto;
+    }
+}
+
+@import "_menu";
+@import "_card";
+@import "_testimonial";
+@import "_animacion";
+@import "_footer"
+
+

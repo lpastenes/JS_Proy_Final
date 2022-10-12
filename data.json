@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "./img/airport.jpg", 
+        "titulo": "Aeropuerto - Chicureo",
+        "precio": 30000
+    },
+    {
+        "id": 2,
+        "imgUrl": "./img/tour_santiago.jpg", 
+        "titulo": "City Tour Santiago",
+        "precio": 40000
+    },
+    {
+        "id": 3,
+        "imgUrl": "./img/lan-chile.jpg", 
+        "titulo": "Chicureo - Aeropuerto",
+        "precio": 30000
+    },
+    {
+        "id": 4,
+        "imgUrl": "./img/valpo.jpg", 
+        "titulo": "Tour Valparaiso",
+        "precio": 40000
+    },
+    {
+        "id": 5,
+        "imgUrl": "./img/vina-del-mar2.jpg", 
+        "titulo": "Tour Viña del Mar",
+        "precio": 40000
+    },
+    {
+        "id": 6,
+        "imgUrl": "./img/hotel.jpg", 
+        "titulo": "Aeropuerto - Hotel",
+        "precio": 30000
+    },
+    {
+        "id": 7,
+        "imgUrl": "./img/valle-nevado.jpg", 
+        "titulo": "Aeropuerto - Valle Nevado",
+        "precio": 50000
+    },
+    {
+        "id": 8,
+        "imgUrl": "./img/valpo.jpg", 
+        "titulo": "Aeropuerto - Valparaíso",
+        "precio": 50000
+    },
+    {
+        "id": 9,
+        "imgUrl": "./img/vina-del-mar.jpg", 
+        "titulo": "Aeropuerto - Viña del Mar",
+        "precio": 50000
+    },
+    {
+        "id": 10,
+        "imgUrl": "./img/beach.jpg", 
+        "titulo": "Tour Isla Negra",
+        "precio": 40000
+    }
+]

@@ -1,0 +1,23 @@
+.navbar {        
+    .logo img {
+        margin-left: 40px;
+        height: $sizeLogo;
+    }
+    .navbar-brand {
+        font-size: 16px;
+    }
+    .navbar-nav {
+        margin-left: 50px;        
+    }
+    .nav-item a {
+        font-size: $sizeMenu;        
+    }
+    .carro {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .carro i {    
+        font-size: $sizeCarro;
+        padding: 10px;            
+    }     
+}
